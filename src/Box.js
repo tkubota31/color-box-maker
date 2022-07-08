@@ -17,7 +17,7 @@ function Box ({
             width : `${width}em`
         }}
         />
-        <button onClick={remove}> Remove </button>
+        <button onClick={remove}> Remove! </button>
     </div>
     );
 }

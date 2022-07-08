@@ -41,7 +41,7 @@ const NewBoxForm = ({createBox}) =>{
           </div>
 
           <div>
-            <label htmlFor="width">Height</label>
+            <label htmlFor="width">Width</label>
             <input
             id="width"
             type = "text"
@@ -63,7 +63,7 @@ const NewBoxForm = ({createBox}) =>{
             onChange = {handleChange}
             />
          </div>
-         <button id="newBoxButton"> Add Box!</button>
+         <button id="newBoxButton">Add New Box!</button>
         </form>
 
     </div>
